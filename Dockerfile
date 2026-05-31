@@ -1,0 +1,15 @@
+FROM maven:3.9-eclipse-temurin-21 AS build
+WORKDIR /app
+COPY pom.xml .
+COPY BolnicaJPA/pom.xml BolnicaJPA/
+COPY BolnicaJPA/src BolnicaJPA/src
+COPY BolnicaWeb/pom.xml BolnicaWeb/
+COPY BolnicaWeb/src BolnicaWeb/src
+RUN mvn clean package -DskipTests --no-transfer-progress
+
+FROM tomcat:11-jdk21-temurin
+RUN rm -rf /usr/local/tomcat/webapps/*
+RUN sed -i 's/port="8005"/port="-1"/' /usr/local/tomcat/conf/server.xml
+COPY --from=build /app/BolnicaWeb/target/BolnicaWeb-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/Bolnica.war
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
