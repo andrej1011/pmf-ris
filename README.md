@@ -1,6 +1,6 @@
 # 🏥 GDPR Hospital Information System
 
-A role-based hospital records system (RIS) built around **GDPR data-protection rights** from the ground up. Manages patients, examinations, prescriptions and medical records, with separate workspaces for administrators, doctors, nurses and patients.
+A role-based hospital records system built around **GDPR data-protection rights** from the ground up. Manages patients, examinations, prescriptions and medical records, with separate workspaces for administrators, doctors, nurses and patients.
 
 🔗 **Live demo:** https://pmf-ris.onrender.com/Bolnica/
 
@@ -29,8 +29,8 @@ Useful demo values:
 
  | |
 |---|---|
-| ![Login](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/login.png) | ![Doctor dashboard](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/doctor.png) |
-| ![GDPR requests](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/gdpr.png) | ![PDF report](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/report.png) |
+| ![Login](https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/login.png) | ![Doctor dashboard](https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/doctor.png) |
+| ![GDPR requests](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/gdpr.png) | ![PDF report](https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/report.png) |
 
 
 ---
