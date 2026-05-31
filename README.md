@@ -10,7 +10,8 @@ A role-based hospital records system (RIS) built around **GDPR data-protection r
 
 ## 📚 Academic Background
 
-This project was built for **Razvoj Informacionog Softvera** (*Information System Development*), a course at the **Faculty of Sciences (Prirodno-matematički fakultet) at the University of Novi Sad** during my Bachelor studies. The goal was to design and implement a complete information system, with a strong focus on **GDPR data-protection requirements** applied to sensitive medical data.
+This project was built for **Razvoj Informacionog Softvera** (*Information System Development*), a course at the **Faculty of Sciences (Prirodno-matematički fakultet) at the University of Novi Sad** during my Bachelor studies.
+The goal was to design and implement a complete information system, with a strong focus on **GDPR data-protection requirements** applied to sensitive medical data.
 
 ### Branches
 - **`main`** — the original course project as submitted.
