@@ -66,18 +66,22 @@ A full end-to-end scenario that touches every role and the GDPR flow:
 2. Log in as the **nurse** → register a new patient → schedule an examination.
 
 **Doctor — clinical work**
+
 3. Log in as **doctor** → review requests and upcoming examinations.
 4. Perform the examination, view past examinations, and print the report (PDF).
 
 **Patient — records & GDPR rights**
+
 5. Log in as the **patient** → view reports and prescriptions.
 6. Submit GDPR requests: data correction, portability, PDF export, and erasure.
 
 **Admin — GDPR approval**
+
 7. Log in as **admin** → approve the correction / portability / export requests.
 8. Patient logs back in → sees the changes and generates the exported PDF.
 
 **Admin — erasure & reporting**
+
 9. Admin deletes the patient → that patient can no longer log in (right to erasure).
 10. Admin generates the monthly statistics report.
 
