@@ -27,11 +27,36 @@ Useful demo values:
 
 ## 📸 Screenshots
 
- | |
-|---|---|
-| ![Login](https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/login.png) | ![Doctor dashboard](https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/doctor.png) |
-| ![GDPR requests](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/gdpr.png) | ![PDF report](https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/report.png) |
-
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/login.png" alt="Login" width="280"/><br/>
+      <sub><b>Login</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/doctor.png" alt="Doctor — examination" width="280"/><br/>
+      <sub><b>Doctor's dashboard</b></sub>
+    </td>
+   <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/report.png" alt="PDF report" width="280"/><br/>
+      <sub><b>PDF report</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/past-exams.png" alt="Past examinations" width="280"/><br/>
+      <sub><b>Past examinations</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/recepti.png" alt="Prescriptions" width="280"/><br/>
+      <sub><b>Patient's Prescriptions</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/gdpr.png" alt="GDPR requests" width="280"/><br/>
+      <sub><b>GDPR requests</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
