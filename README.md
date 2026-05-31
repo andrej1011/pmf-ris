@@ -8,9 +8,37 @@ A role-based hospital records system (RIS) built around **GDPR data-protection r
 
 ---
 
+## 🔑 Demo Credentials
+
+| Role | Username | Password |
+|------|----------|----------|
+| Admin | `admin` | `admin` |
+| Nurse | `sestra1` | `MvCvnSkw` |
+| Doctor | `markpetrovic` | `RFWsjkhQ` |
+| Patient | `jovanapopovic213` | `KjstpGvE` |
+
+Useful demo values:
+- Existing patient ID number (JMBG): `2209985714225`
+- A valid JMBG for creating a **new** patient: `0912976801350`
+
+> These are shared demo accounts on public sample data. Please don't store anything real!
+
+---
+
+## 📸 Screenshots
+
+ | |
+|---|---|
+| ![Login](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/login.png) | ![Doctor dashboard](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/doctor.png) |
+| ![GDPR requests](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/gdpr.png) | ![PDF report](https://raw.githubusercontent.com/andrej1011/pmf_ris/portfolio-deployment/docs/report.png) |
+
+
+---
+
 ## 📚 Academic Background
 
 This project was built for **Razvoj Informacionog Softvera** (*Information System Development*), a course at the **Faculty of Sciences (Prirodno-matematički fakultet) at the University of Novi Sad** during my Bachelor studies.
+
 The goal was to design and implement a complete information system, with a strong focus on **GDPR data-protection requirements** applied to sensitive medical data.
 
 ### Branches
@@ -26,24 +54,6 @@ The goal was to design and implement a complete information system, with a stron
 - **Audit trail** — every sensitive action is logged with user, timestamp and IP address.
 - **Reporting** — examination reports, GDPR data exports and monthly statistics generated as PDF via JasperReports.
 - **Scheduling** — nurses book examinations; doctors manage their schedule, requests and completed visits.
-
----
-
-## 🔑 Demo Credentials
-
-| Role | Username | Password |
-|------|----------|----------|
-| Admin | `admin` | `admin` |
-| Nurse | `sestra1` | `MvCvnSkw` |
-| Doctor | `markpetrovic` | `RFWsjkhQ` |
-| Patient | `jovanapopovic213` | `KjstpGvE` |
-| Patient | `jovanajovanic729` | `PEca1mI8sFWC` |
-
-Useful demo values:
-- Existing patient ID number (JMBG): `2209985714225`
-- A valid JMBG for creating a **new** patient: `0912976801350`
-
-> These are shared demo accounts on public sample data — please don't store anything real.
 
 ---
 
@@ -71,17 +81,7 @@ A full end-to-end scenario that touches every role and the GDPR flow:
 9. Admin deletes the patient → that patient can no longer log in (right to erasure).
 10. Admin generates the monthly statistics report.
 
----
 
-## 📸 Screenshots
-
-| | |
-|---|---|
-| ![Login](docs/login.png) | ![Doctor dashboard](docs/doctor.png) |
-| ![GDPR requests](docs/gdpr.png) | ![PDF report](docs/report.png) |
-| ![Patient dashboard](docs/doctor.png) | 
-
----
 
 ## 🛠 Tech Stack
 
