@@ -30,6 +30,7 @@ public class SecurityConfig {
 	SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		http.authorizeHttpRequests(requests -> requests
 				.dispatcherTypeMatchers(DispatcherType.FORWARD, DispatcherType.ERROR).permitAll()
+				.requestMatchers("/health", "/Bolnica/health").permitAll()
 				.requestMatchers("/login").permitAll()
 				.requestMatchers("/uploads/**").permitAll()
 				.requestMatchers("/css/**").permitAll()
