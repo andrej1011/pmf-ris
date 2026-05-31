@@ -41,12 +41,12 @@ Useful demo values:
       <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/report.png" alt="PDF report" width="280"/><br/>
       <sub><b>PDF report</b></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="33%">
       <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/past-exams.png" alt="Past examinations" width="280"/><br/>
       <sub><b>Past examinations</b></sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="33%">
       <img src="https://raw.githubusercontent.com/andrej1011/pmf-ris/portfolio-deployment/docs/recepti.png" alt="Prescriptions" width="280"/><br/>
       <sub><b>Patient's Prescriptions</b></sub>
